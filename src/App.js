@@ -11,15 +11,15 @@ import {
 
 import BannerSection from './common/src/containers/Portfolio/Banner';
 import Navbar from './common/src/containers/Portfolio/Navbar';
-import AwardsSection from './common/src/containers/Portfolio/Awards';
-import PortfolioShowcase from './common/src/containers/Portfolio/PortfolioShowcase';
+// import AwardsSection from './common/src/containers/Portfolio/Awards';
+// import PortfolioShowcase from './common/src/containers/Portfolio/PortfolioShowcase';
 import ProcessSection from './common/src/containers/Portfolio/Process';
 import SkillSection from './common/src/containers/Portfolio/Skill';
-import CallToAction from './common/src/containers/Portfolio/CallToAction';
-import TestimonialSection from './common/src/containers/Portfolio/Testimonial';
-import ClientsSection from './common/src/containers/Portfolio/Clients';
+// import CallToAction from './common/src/containers/Portfolio/CallToAction';
+// import TestimonialSection from './common/src/containers/Portfolio/Testimonial';
+// import ClientsSection from './common/src/containers/Portfolio/Clients';
 import ContactSection from './common/src/containers/Portfolio/Contact';
-import Footer from './common/src/containers/Portfolio/Footer';
+// import Footer from './common/src/containers/Portfolio/Footer';
 
 export default () => {
   return (

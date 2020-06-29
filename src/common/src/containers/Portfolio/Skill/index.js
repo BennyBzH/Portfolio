@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Line } from 'rc-progress';
-import { Icon } from 'react-icons-kit';
+// import { Line } from 'rc-progress';
+// import { Icon } from 'react-icons-kit';
 import Box from '../../../../../reusecore/src/elements/Box';
 import Text from '../../../../../reusecore/src/elements/Text';
 import Heading from '../../../../../reusecore/src/elements/Heading';
@@ -11,14 +11,14 @@ import Container from '../../../components/UI/Container';
 import {
   SkillItem,
   SkillDetails,
-  SkillProgress,
-  SuccessRate,
-  ProgressBar,
+  // SkillProgress,
+  // SuccessRate,
+  // ProgressBar,
   SkillIcon,
   SkillAbout,
 } from './skill.style';
 import { SKILLS } from '../../../data/Portfolio/data';
-import { ic_thumb_up } from 'react-icons-kit/md/ic_thumb_up';
+// import { ic_thumb_up } from 'react-icons-kit/md/ic_thumb_up';
 
 const SkillSection = ({
   sectionWrapper,

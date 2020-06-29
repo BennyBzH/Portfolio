@@ -12,7 +12,7 @@ import { Icon } from 'react-icons-kit';
 import { check } from 'react-icons-kit/fa/check';
 import { slack } from 'react-icons-kit/fa/slack';
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import Image from '../../../../../reusecore/src/elements/Image';
+// import Image from '../../../../../reusecore/src/elements/Image';
 // import { ActiveStatus } from './contact.style';
 // import Author from '../../../assets/image/portfolio/avatar.png';
 
@@ -70,14 +70,14 @@ class ContactSection extends Component {
       secTitleWrapper,
       secTitle,
       secDescription,
-      replyWrapper,
-      replyTime,
+      // replyWrapper,
+      // replyTime,
       buttonStyle,
       buttonWrapper,
       contactSection,
       contactBlock,
       flexParent,
-      flexCol,
+      // flexCol,
       id,
       slackSection,
       slackButton,

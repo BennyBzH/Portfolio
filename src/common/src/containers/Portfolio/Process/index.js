@@ -4,14 +4,14 @@ import { Icon } from 'react-icons-kit';
 import Box from '../../../../../reusecore/src/elements/Box';
 import Text from '../../../../../reusecore/src/elements/Text';
 import Heading from '../../../../../reusecore/src/elements/Heading';
-import Image from '../../../../../reusecore/src/elements/Image';
-import Button from '../../../../../reusecore/src/elements/Button';
+// import Image from '../../../../../reusecore/src/elements/Image';
+// import Button from '../../../../../reusecore/src/elements/Button';
 import Container from '../../../components/UI/Container';
 import { plus } from 'react-icons-kit/feather/plus';
 
-import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import ProcessItem from './process.style';
-import { PROCESS_STEPS, SERVICE_LIST } from '../../../data/Portfolio/data';
+// import { ButtonWrapper } from '../../Portfolio/portfolio.style';
+// import ProcessItem from './process.style';
+import { SERVICE_LIST } from '../../../data/Portfolio/data';
 
 const ProcessSection = ({
   sectionWrapper,
@@ -78,7 +78,7 @@ const ProcessSection = ({
               {...learningTitle}
             />
             <Text
-              content="Je suis Benjamin Piel, 24 ans."
+              content={`Je suis Benjamin Piel, ${_calculateAge(new Date('1995-03-06'))} ans.`}
               {...learningSubTitle}
             />
             <Text
@@ -283,3 +283,10 @@ ProcessSection.defaultProps = {
 };
 
 export default ProcessSection;
+
+
+function _calculateAge(birthday) { // birthday is a date
+  var ageDifMs = Date.now() - birthday.getTime();
+  var ageDate = new Date(ageDifMs); // miliseconds from epoch
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+}

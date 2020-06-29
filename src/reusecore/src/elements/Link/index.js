@@ -13,8 +13,8 @@ const LinkWrapper = styled('a')(
 const Link = ({ children, ...props }) => (
   <LinkWrapper {...props}>{children}</LinkWrapper>
 );
-  
-const LinkCustom = ({children, ... props}) => (
+
+const LinkCustom = ({children, ...props}) => (
   <LinkCustomStyle {...props}>{children}</LinkCustomStyle>
 );
 export default Link;

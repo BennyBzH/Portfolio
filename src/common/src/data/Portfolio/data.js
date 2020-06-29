@@ -1,8 +1,8 @@
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
-import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+// import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
+// import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+// import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
@@ -21,13 +21,13 @@ import Step1 from '../../assets/image/portfolio/step-1.png';
 import Step2 from '../../assets/image/portfolio/step-2.png';
 import Step3 from '../../assets/image/portfolio/step-3.png';
 
-import SkillIcon1 from '../../assets/image/portfolio/skill-1.svg';
-import SkillIcon2 from '../../assets/image/portfolio/skill-2.svg';
+// import SkillIcon1 from '../../assets/image/portfolio/skill-1.svg';
+// import SkillIcon2 from '../../assets/image/portfolio/skill-2.svg';
 import SkillIcon3 from '../../assets/image/portfolio/skill-3.svg';
-import SkillIcon4 from '../../assets/image/portfolio/skill-4.svg';
+// import SkillIcon4 from '../../assets/image/portfolio/skill-4.svg';
 import Chart from '../../assets/image/portfolio/bars-chart.svg';
 import Development from '../../assets/image/portfolio/development.svg';
-import Ecommerce from '../../assets/image/portfolio/ecommerce.svg';
+// import Ecommerce from '../../assets/image/portfolio/ecommerce.svg';
 
 import Client1 from '../../assets/image/portfolio/client-1.png';
 import Client2 from '../../assets/image/portfolio/client-2.png';

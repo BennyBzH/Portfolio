@@ -16,7 +16,7 @@ const SocialProfile = ({ items, className, iconSize }) => {
           key={`social-item-${index}`}
           className="social_profile_item"
         >
-            <a href={item.url} target="_blank">
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
               <Icon
                 icon={item.icon || socialDribbbleOutline}
                 size={iconSize || 22}

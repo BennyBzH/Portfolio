@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import RcDrawer from 'rc-drawer';
-import 'rc-drawer/assets/index.css';
+// import 'rc-drawer/assets/index.css';
 
 const Drawer = ({
   className,

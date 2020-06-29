@@ -38,7 +38,7 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
       {...props}
     >
       {menuItems.map((menu, index) => {
-        if(menu.label !== false)
+        if(menu.label !== false){
         return (
         <li key={`menu-item-${index}`}>
           {menu.staticLink ? ( null
@@ -60,7 +60,10 @@ const ScrollSpyMenu = ({ className, menuItems, drawerClose, ...props }) => {
             </>
           )}
         </li>
-      )})}
+      )} else {
+        return false
+      }
+      })}
     </Scrollspy>
   );
 };

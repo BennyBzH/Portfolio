@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Icon from 'react-icons-kit';
+// import Icon from 'react-icons-kit';
 import Box from '../../../../../reusecore/src/elements/Box';
-import Text from '../../../../../reusecore/src/elements/Text';
+// import Text from '../../../../../reusecore/src/elements/Text';
 import Heading from '../../../../../reusecore/src/elements/Heading';
 import Image from '../../../../../reusecore/src/elements/Image';
 import Container from '../../../components/UI/Container';
@@ -10,7 +10,7 @@ import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from '../../../data/Portfolio/data';
-import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
+// import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 import PersonImage from '../../../assets/image/portfolio/test.png';
 
 const BannerSection = ({
