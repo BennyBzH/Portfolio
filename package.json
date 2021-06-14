@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "prop-types": "^15.7.2",
     "rc-progress": "^2.3.0",
     "rc-tabs": "^9.6.3",
